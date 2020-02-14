@@ -19,7 +19,6 @@ def help
 end 
  
 def list 
-  songs
-  songs.each_with_index{|item, index| pp "#{index + 1}. #{item}"
-  }
+  my_songs = songs 
+  my_songs.each { |song, location| pp song }
 end 
