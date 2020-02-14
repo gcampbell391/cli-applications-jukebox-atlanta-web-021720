@@ -59,7 +59,7 @@ def run(songs)
       when "help"
         help
       when "exit"
-      puts "Please enter a command:
+      puts "Please enter a command:"
         break
       else
         help
