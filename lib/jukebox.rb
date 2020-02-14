@@ -59,7 +59,7 @@ def run(songs)
       when "help"
         help
       when "exit"
-      puts "I accept the following commands:"
+      puts "Please enter a command:
         break
       else
         help
