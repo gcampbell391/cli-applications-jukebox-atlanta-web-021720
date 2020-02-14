@@ -50,7 +50,7 @@ def run(songs)
 	help
 	input = nil
 	while input != "exit"
-		puts "Please enter a command:"
+		puts "I accept the following commands:"
 		input = gets.chomp
 		case
 		when input == "help"
