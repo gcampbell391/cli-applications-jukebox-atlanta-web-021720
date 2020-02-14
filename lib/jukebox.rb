@@ -48,24 +48,21 @@ end
 
 def run(songs)
   help
-  puts"Please enter a command:"
-  puts "Please make a selection"
-  choice = gets.chomp
-  until choice == 'exit'
-    case choice
-
-    when 'help'
-      help
-    when 'list'
+  input = ""
+  while input != "exit"
+    puts "Please enter a command:"
+    input = gets.chomp
+    case input
+    when "play"
+      play(song)
+    when "list"
       list(songs)
-    when 'play'
-      play(songs)
+    when "help"
+      help
+    when "exit"
+      exit_jukebox    
     else
-      puts 'That is not a option! Try Again.'
+      puts "Invalid input, please try again"
     end
-  puts
-  puts "Please make a selection"
-  choice = gets.chomp
   end
-exit_jukebox
 end
