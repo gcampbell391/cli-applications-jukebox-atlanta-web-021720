@@ -19,6 +19,5 @@ def help
 end 
  
 def list 
-  my_songs = songs 
-  my_songs.each { |song, location| pp song }
+pp songs 
 end 
