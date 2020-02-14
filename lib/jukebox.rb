@@ -20,6 +20,6 @@ end
 
 def list 
   songs.each_with_index{|item, index| 
-    puts "#{index + 1}. #{item}"
+    pp "#{index + 1}. #{item}"
   }
 end 
