@@ -53,7 +53,6 @@ def run(songs)
     command = gets.chomp
     case command
       when "exit"
-        exit_jukebox
         break
       when "list"
         list(songs)
