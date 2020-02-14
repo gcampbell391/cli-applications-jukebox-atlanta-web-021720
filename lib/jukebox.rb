@@ -19,5 +19,5 @@ def help
 end 
 
 def list 
-  songs.each
+  songs.each_with_index{||}
 end 
