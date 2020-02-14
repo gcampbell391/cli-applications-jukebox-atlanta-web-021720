@@ -48,7 +48,7 @@ end
 
 def run(songs)
   help
-  puts  
+  puts  "Please enter a command:"
   puts "Please make a selection"
   choice = gets.chomp
   until choice == 'exit'
