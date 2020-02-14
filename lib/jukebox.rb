@@ -20,8 +20,7 @@ def help
   puts "- exit : exits this program"
 end 
  
-def list 
-    songs.each { |song, location|
-    puts song
+def list(songs) 
+    pp songs
     }
 end 
