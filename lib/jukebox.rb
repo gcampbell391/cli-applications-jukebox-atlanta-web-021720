@@ -21,5 +21,7 @@ def help
 end 
  
 def list 
-
+    songs.each { |song, location|
+    puts song
+    }
 end 
