@@ -49,7 +49,7 @@ end
 def run(songs)
 	help
 	input = nil
-	while input != "exit"
+	while input != nil
 		puts "Please enter a command:"
 		input = gets.chomp
 		case
@@ -63,7 +63,4 @@ def run(songs)
 			puts "Invalid input, please try again"
 		end
 	end
-	if input == "exit"
-	exit_jukebox
-	end 
 end
