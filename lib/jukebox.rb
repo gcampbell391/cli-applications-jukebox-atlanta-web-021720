@@ -1,3 +1,4 @@
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -19,5 +20,5 @@ def help
 end 
  
 def list 
-pp songs 
+return songs 
 end 
