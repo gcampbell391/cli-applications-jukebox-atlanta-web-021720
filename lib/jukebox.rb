@@ -53,6 +53,9 @@ def run(songs)
 		puts "Please enter a command:"
 		input = gets.chomp
 		case
+		when input == "exit"
+		  exit_jukebox
+		  return
 		when input == "help"
 			help
 		when input == "list"
